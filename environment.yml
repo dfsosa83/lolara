@@ -1,0 +1,25 @@
+name: lolara #Odysseus' cunning and adaptability combined with the swiftness and agility of Mercury symbolize quick thinking and resourcefulness in overcoming obstacles.
+#channels:
+ # - defaults
+  #- conda-forge  # Add conda-forge channel for more package options
+dependencies:
+  - python=3.10.12  # Specify the Python version you want to use
+  # List your required packages here
+  - numpy
+  - pandas
+  - flask
+  - requests
+  - scikit-learn=1.2.2
+  - flask=2.2.5
+  - requests=2.26.0
+  - matplotlib
+  - seaborn
+  - lightgbm=4.1.0
+  - pytz
+  - pip
+  - pip:
+    - ta
+    - keras==2.15.0
+    - tensorflow==2.15.0  
+    - xgboost
+    - MetaTrader5
